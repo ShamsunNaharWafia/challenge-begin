@@ -28,12 +28,12 @@ header .btn-primary {
     box-sizing: border-box;
     border: 2px solid rgb(13, 19, 33);
     opacity: 0.8;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 600;
 }
 
 #banner {
-    height: 580px;
+    height: 600px;
     background-image: url("../assets/Hero-bg.png");
     background-position: center;
     background-size: cover;
@@ -66,12 +66,12 @@ header .btn-primary {
 }
 
 .btn-contact {
-    padding: 15px;
+    padding: 18px;
     border-radius: 6px;
     box-sizing: border-box;
     background-color: black;
     color: white;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -135,7 +135,9 @@ header .btn-primary {
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(13, 19, 33);
+    font-size: 18px;
     font-weight: 600;
+    color: rgb(13, 19, 33);
 }
 
 /* inspiration section */
