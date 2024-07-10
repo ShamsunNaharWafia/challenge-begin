@@ -15,8 +15,11 @@ header .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 28px;
+}
+
+.nav h4 {
     font-weight: 800;
+    font-size: 28px;
 }
 
 header .btn-primary {
@@ -39,9 +42,9 @@ header .btn-primary {
     flex-direction: column;
 }
 
-hr {
+/* hr {
     border: 1px dashed rgb(105, 110, 121);
-}
+} */
 
 .banner-title {
     text-align: center;
@@ -76,8 +79,9 @@ hr {
 #card {
     margin: 30px 220px;
     /* padding: 50px; */
-    height: 1000px;
+    height: 1100px;
     border-radius: 16px;
+    align-content: center;
     background: rgba(13, 19, 33, 0.02);
 }
 
@@ -95,6 +99,7 @@ hr {
 
 #card .Layer {
     margin: 40px;
+    border-radius: 8px;
     display: flex;
     flex-direction: row;
     align-content: space-between;
@@ -114,7 +119,7 @@ hr {
 }
 
 #card .layer1-title {
-    padding-right: 100px;
+    padding-left: 30px;
 }
 
 #card .layer1-subtitle {
@@ -352,13 +357,13 @@ footer {
     background: rgba(13, 19, 33, 0.03);
 }
 
-footer #footer-title {
+footer #footer {
     margin: 30px 220px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-footer .media-container .center {
+#footer .media-container .center {
     padding: 0px 12px;
 }
