@@ -11,10 +11,12 @@
 }
 
 header .nav {
-    margin: 30px 200px;
+    margin: 30px 220px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 28px;
+    font-weight: 800;
 }
 
 header .btn-primary {
@@ -298,7 +300,7 @@ hr {
 }
 
 #support-container {
-    margin: 30px 220px;
+    margin: 50px 220px;
     padding: 40px;
     height: 220px;
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.2),
@@ -341,4 +343,22 @@ hr {
     padding: 0px 10px;
     border: 2px solid rgba(13, 19, 33, 0.15);
     border-radius: 6px;
+}
+
+footer {
+    border-radius: 16px;
+    height: 100px;
+    align-content: center;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+footer #footer-title {
+    margin: 30px 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .media-container .center {
+    padding: 0px 12px;
 }
