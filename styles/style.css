@@ -160,3 +160,77 @@ hr {
     padding: 20px;
     border: 1px solid rgb(200, 199, 199);
 }
+
+#target {
+    margin: 30px 200px;
+    padding: 20px;
+}
+
+#target h3 {
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+#target .target-title {
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 40px;
+}
+
+#target .current-target {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+#target .Layer-card1 {
+    position: static;
+    width: 350px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+#target .Layer-card2 {
+    position: static;
+    width: 350px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+#target .Layer-card3 {
+    position: static;
+    width: 350px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+#target .current-target h4 {
+    font-size: 24px;
+    font-weight: 800;
+    padding: 20px 0px;
+}
+
+#target .current-target p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+
+#target .current-target a {
+    color: rgb(13, 19, 33);
+    ;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
