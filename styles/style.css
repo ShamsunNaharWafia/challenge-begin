@@ -87,6 +87,8 @@ hr {
 
 #card .card-title h3 {
     padding: 20px;
+    font-size: 32px;
+    font-weight: 800;
 }
 
 
@@ -128,4 +130,33 @@ hr {
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(13, 19, 33);
     font-weight: 600;
+}
+
+/* inspiration section */
+
+.inspiration {
+    margin: 30px 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+.inspiration h3 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.inspiration p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 40px;
+}
+
+
+.video-card iframe {
+    border-radius: 1rem;
+    padding: 20px;
+    border: 1px solid rgb(200, 199, 199);
 }
