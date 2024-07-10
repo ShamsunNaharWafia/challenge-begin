@@ -32,7 +32,6 @@ header .btn-primary {
     background-image: url("../assets/Hero-bg.png");
     background-position: center;
     background-size: cover;
-
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -296,4 +295,50 @@ hr {
     font-size: 16px;
     font-weight: 700;
     padding: 20px 0px;
+}
+
+#support-container {
+    margin: 30px 220px;
+    padding: 40px;
+    height: 220px;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 100%), url("../assets/handshake.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 6px;
+    text-align: center;
+    align-content: center;
+}
+
+#support-container .support-title h3 {
+    /* padding-top: 40px; */
+    text-align: center;
+    color: rgb(233, 235, 240);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+#support-container .support-title p {
+    font-size: 16px;
+    color: rgb(233, 235, 240);
+    font-weight: 400;
+    padding: 20px 0px;
+}
+
+#support-container .support-title button {
+    padding: 10px 20px;
+    height: 57px;
+    font-weight: 700;
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgba(13, 19, 33, 0.15);
+}
+
+#support-container .support-title input {
+    width: 548px;
+    height: 57px;
+    padding: 0px 10px;
+    border: 2px solid rgba(13, 19, 33, 0.15);
+    border-radius: 6px;
 }
