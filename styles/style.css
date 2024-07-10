@@ -229,7 +229,70 @@ hr {
 
 #target .current-target a {
     color: rgb(13, 19, 33);
-    ;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+
+/* next target */
+
+#next-target-container {
+    margin: 30px 200px;
+    padding: 20px;
+}
+
+#next-target-container h3 {
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+#next-target-container .main-sub {
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 40px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.next-container {
+    border: 1px solid rgb(138, 137, 151);
+    border-radius: 6px;
+    /* box-shadow: 2px 2px 2px 2px; */
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+#next-target-container .text-container {
+    /* align-items: center; */
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 30px;
+}
+
+#next-target-container .text-container h4 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#next-target-container .text-container p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+
+#next-target-container .text-container a {
+    color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
     padding: 20px 0px;
